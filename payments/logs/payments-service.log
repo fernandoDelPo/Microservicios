@@ -1,0 +1,114 @@
+17:07:16.458 [main] INFO  c.d.p.PaymentsServiceApplication - Starting PaymentsServiceApplication using Java 17.0.9 with PID 20036 (H:\Digital House Especializaciones\2 - Microservicios\Spring Cloud\eureka\Proyectos\Spring Cloud - instancias\payments\target\classes started by Del Pozzi Fernando in H:\Digital House Especializaciones\2 - Microservicios\Spring Cloud\eureka\Proyectos\Spring Cloud - instancias\payments)
+17:07:16.460 [main] INFO  c.d.p.PaymentsServiceApplication - No active profile set, falling back to 1 default profile: "default"
+17:07:17.200 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=438433c3-dde8-3da3-85fb-0bc90bac6ca7
+17:07:17.530 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8092 (http)
+17:07:17.537 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8092"]
+17:07:17.539 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:07:17.540 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+17:07:17.644 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:07:17.646 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1142 ms
+17:07:18.400 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+17:07:18.547 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+17:07:18.566 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+17:07:18.632 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+17:07:18.637 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+17:07:18.655 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+17:07:18.656 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+17:07:18.656 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+17:07:18.656 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+17:07:18.656 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+17:07:18.656 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+17:07:18.656 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+17:07:18.931 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+17:07:18.934 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+17:07:18.936 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+17:07:18.940 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1700856438940 with initial instances count: 5
+17:07:18.943 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application PAYMENTS-SERVICE with eureka with status UP
+17:07:18.943 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1700856438943, current=UP, previous=STARTING]
+17:07:18.945 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8092"]
+17:07:18.945 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENTS-SERVICE/host.docker.internal:payments-service:8092: registering service...
+17:07:18.965 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8092 (http) with context path ''
+17:07:18.965 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8092
+17:07:18.985 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENTS-SERVICE/host.docker.internal:payments-service:8092 - registration status: 204
+17:07:19.073 [main] INFO  c.d.p.PaymentsServiceApplication - Started PaymentsServiceApplication in 3.07 seconds (process running for 3.553)
+17:07:32.258 [http-nio-8092-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:07:32.259 [http-nio-8092-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:07:32.259 [http-nio-8092-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+17:07:32.296 [http-nio-8092-exec-2] INFO  c.d.p.c.PaymentRestController - Intentando obtener payment con id: 4....
+17:07:32.297 [http-nio-8092-exec-2] ERROR c.d.p.c.PaymentRestController - Error al obtener un payment
+17:08:46.154 [main] INFO  c.d.p.PaymentsServiceApplication - Starting PaymentsServiceApplication using Java 17.0.9 with PID 19972 (H:\Digital House Especializaciones\2 - Microservicios\Spring Cloud\eureka\Proyectos\Spring Cloud - instancias\payments\target\classes started by Del Pozzi Fernando in H:\Digital House Especializaciones\2 - Microservicios\Spring Cloud\eureka\Proyectos\Spring Cloud - instancias\payments)
+17:08:46.156 [main] INFO  c.d.p.PaymentsServiceApplication - No active profile set, falling back to 1 default profile: "default"
+17:08:46.932 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=438433c3-dde8-3da3-85fb-0bc90bac6ca7
+17:08:47.276 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8092 (http)
+17:08:47.282 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8092"]
+17:08:47.284 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:08:47.285 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+17:08:47.388 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:08:47.389 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1184 ms
+17:08:48.138 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+17:08:48.290 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+17:08:48.308 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+17:08:48.373 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+17:08:48.378 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+17:08:48.398 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+17:08:48.398 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+17:08:48.398 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+17:08:48.398 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+17:08:48.398 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+17:08:48.398 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+17:08:48.398 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+17:08:48.651 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+17:08:48.653 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+17:08:48.655 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+17:08:48.659 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1700856528659 with initial instances count: 5
+17:08:48.661 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application PAYMENTS-SERVICE with eureka with status UP
+17:08:48.662 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1700856528662, current=UP, previous=STARTING]
+17:08:48.664 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8092"]
+17:08:48.664 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENTS-SERVICE/host.docker.internal:payments-service:8092: registering service...
+17:08:48.686 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8092 (http) with context path ''
+17:08:48.687 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8092
+17:08:48.699 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENTS-SERVICE/host.docker.internal:payments-service:8092 - registration status: 204
+17:08:48.782 [main] INFO  c.d.p.PaymentsServiceApplication - Started PaymentsServiceApplication in 3.195 seconds (process running for 3.686)
+17:08:54.784 [http-nio-8092-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:08:54.784 [http-nio-8092-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:08:54.785 [http-nio-8092-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:08:54.824 [http-nio-8092-exec-1] INFO  c.d.p.c.PaymentRestController - Intentando obtener payment con id: 4....
+17:08:54.824 [http-nio-8092-exec-1] ERROR c.d.p.c.PaymentRestController - Error al obtener un payment
+17:24:42.826 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.digitalhouse.payments.PaymentsServiceApplicationTests], using SpringBootContextLoader
+17:24:42.846 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.digitalhouse.payments.PaymentsServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:24:42.847 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.digitalhouse.payments.PaymentsServiceApplicationTests]: PaymentsServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:24:42.927 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.digitalhouse.payments.PaymentsServiceApplication for test class com.digitalhouse.payments.PaymentsServiceApplicationTests
+17:24:43.028 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:24:43.041 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c153b9e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a7686a7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@758a34ce, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7ec3394b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@bff34c6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1522d8a0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@312ab28e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5644dc81, org.springframework.test.context.event.EventPublishingTestExecutionListener@246f8b8b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@278bb07e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4351c8c3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3381b4fc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6bea52d4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@11981797, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5c42d2b7]
+17:24:43.404 [main] INFO  c.d.p.PaymentsServiceApplicationTests - Starting PaymentsServiceApplicationTests using Java 17.0.9 on Fernando with PID 14748 (started by Del Pozzi Fernando in H:\Digital House Especializaciones\2 - Microservicios\Spring Cloud\eureka\Proyectos\Spring Cloud - instancias\payments)
+17:24:43.404 [main] INFO  c.d.p.PaymentsServiceApplicationTests - No active profile set, falling back to default profiles: default
+17:24:45.159 [main] INFO  c.d.p.PaymentsServiceApplicationTests - Started PaymentsServiceApplicationTests in 2.075 seconds (JVM running for 3.003)
+17:25:00.651 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.digitalhouse.payments.PaymentsServiceApplicationTests], using SpringBootContextLoader
+17:25:00.671 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.digitalhouse.payments.PaymentsServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:25:00.671 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.digitalhouse.payments.PaymentsServiceApplicationTests]: PaymentsServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:25:00.767 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.digitalhouse.payments.PaymentsServiceApplication for test class com.digitalhouse.payments.PaymentsServiceApplicationTests
+17:25:00.878 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:25:00.892 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c153b9e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a7686a7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@758a34ce, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7ec3394b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@bff34c6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1522d8a0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@312ab28e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5644dc81, org.springframework.test.context.event.EventPublishingTestExecutionListener@246f8b8b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@278bb07e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4351c8c3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3381b4fc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6bea52d4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@11981797, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5c42d2b7]
+17:25:01.282 [main] INFO  c.d.p.PaymentsServiceApplicationTests - Starting PaymentsServiceApplicationTests using Java 17.0.9 on Fernando with PID 10992 (started by Del Pozzi Fernando in H:\Digital House Especializaciones\2 - Microservicios\Spring Cloud\eureka\Proyectos\Spring Cloud - instancias\payments)
+17:25:01.283 [main] INFO  c.d.p.PaymentsServiceApplicationTests - No active profile set, falling back to default profiles: default
+17:25:03.210 [main] INFO  c.d.p.PaymentsServiceApplicationTests - Started PaymentsServiceApplicationTests in 2.275 seconds (JVM running for 3.252)
+17:25:23.705 [main] INFO  c.d.p.PaymentsServiceApplication - Starting PaymentsServiceApplication using Java 17.0.9 on Fernando with PID 18824 (H:\Digital House Especializaciones\2 - Microservicios\Spring Cloud\eureka\Proyectos\Spring Cloud - instancias\payments\target\classes started by Del Pozzi Fernando in H:\Digital House Especializaciones\2 - Microservicios\Spring Cloud\eureka\Proyectos\Spring Cloud - instancias\payments)
+17:25:23.707 [main] INFO  c.d.p.PaymentsServiceApplication - No active profile set, falling back to default profiles: default
+17:25:24.559 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8092 (http)
+17:25:24.567 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8092"]
+17:25:24.568 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:25:24.568 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+17:25:24.689 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:25:24.689 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 941 ms
+17:25:25.243 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8092"]
+17:25:25.268 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8092 (http) with context path ''
+17:25:25.275 [main] INFO  c.d.p.PaymentsServiceApplication - Started PaymentsServiceApplication in 2.019 seconds (JVM running for 2.424)
+17:25:37.072 [http-nio-8092-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:25:37.072 [http-nio-8092-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:25:37.073 [http-nio-8092-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:25:37.099 [http-nio-8092-exec-2] INFO  c.d.p.c.PaymentRestController - Intentando obtener payment con id: 4....
+17:25:37.099 [http-nio-8092-exec-2] ERROR c.d.p.c.PaymentRestController - Error al obtener un payment
+17:32:11.742 [http-nio-8092-exec-5] INFO  c.d.p.c.PaymentRestController - Intentando obtener payment con id: 4....
+17:32:11.742 [http-nio-8092-exec-5] ERROR c.d.p.c.PaymentRestController - Error al obtener un payment
+17:32:46.537 [http-nio-8092-exec-6] INFO  c.d.p.c.PaymentRestController - Intentando obtener payment con id: 4....
+17:32:46.537 [http-nio-8092-exec-6] ERROR c.d.p.c.PaymentRestController - Error al obtener un payment
